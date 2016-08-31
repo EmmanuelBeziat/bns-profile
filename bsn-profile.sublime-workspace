@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"backface-visibility"
+			],
+			[
+				"color",
+				"color-background"
+			],
+			[
+				"st",
+				"stylus"
+			],
+			[
+				"popupPo",
+				"popupPosX"
+			],
+			[
+				"popup",
+				"popupWidth"
+			],
+			[
+				"font-s",
+				"font-stack-common"
+			],
+			[
+				"raw",
+				"rawMarkdown"
+			],
+			[
+				"git",
+				"gitHub"
+			],
+			[
+				"repon",
+				"response"
+			],
+			[
+				"article",
+				"articles"
+			],
+			[
+				"font-",
+				"font-stack-common"
+			],
+			[
+				"assets",
+				"assetsPath"
+			],
+			[
+				"colo",
+				"color-background"
+			],
+			[
+				"note",
+				"note-maker"
+			],
+			[
+				"mag",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)  "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Taff/Web/GitHub/bns-profile"
+	],
+	"file_history":
+	[
+		"/E/Taff/Web/GitHub/bns-profile/src/App.vue",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/variables.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/components/Home.vue",
+		"/E/Taff/Web/GitHub/bns-profile/bsn-profile.sublime-project",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/icons/send.svg",
+		"/E/Taff/Web/GitHub/bns-profile/src/main.js",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/main.styl",
+		"/E/Taff/Web/GitHub/bns-profile/package.json",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/helper.styl",
+		"/E/Taff/Web/GitHub/bns-profile/build/webpack.base.conf.js",
+		"/E/Taff/Web/GitHub/bns-profile/build/dev-server.js",
+		"/E/Taff/Web/GitHub/bns-profile/src/components/Help.vue",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/animations.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/fonts.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/app/routes.js",
+		"/E/Taff/Web/GitHub/bns-profile/src/components/NotFound.vue",
+		"/E/Taff/Web/GitHub/bns-profile/index.html",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/mixins.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/app/router.js",
+		"/E/Taff/Web/GitHub/bns-profile/src/app/boot.js",
+		"/E/Taff/Web/GitHub/bsn-profile/bns-profile.sublime-project",
+		"/E/Taff/Web/GitHub/bsn-profile/.gitignore",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/utils/variables.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/modules/base.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/vendors/prism.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/components/notes.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/components/share.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/home.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/modules/header.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/not-found.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/utils/animations.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/portfolio-list.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/utils/helpers.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/post.styl",
+		"/C/Users/Emmanuel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/pages/portfolio/index.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/pages/Home.vue",
+		"/C/Users/Emmanuel/AppData/Local/Temp/tmp46D9.tmp.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/components/tags.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/posts-list.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/main.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/utils/mixins.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/static/sprites/icons.svg",
+		"/C/Users/Emmanuel/AppData/Local/Temp/Rar$DRa0.021/source/svg/external.svg",
+		"/E/Taff/Web/Sites/emmanuelbeziat/package.json",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/icons/twitter.svg",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/pages/blog/index.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/components/app-resume.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/components/app-header.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/static/resume.json",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/icons/external.svg",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/pages/blog/post.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/main.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/components/app-share.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/components/app-tweets.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/components/app-footer.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/index.html",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/posts.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/App.vue",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/javascript/prism.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/build/buildpages.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-07-11-aligner-trois-colonnes-proprement.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-07-12-changer-une-image-au-survol.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-07-13-utiliser-les-proprietes-de-police-avec-une-font-web.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-08-06-prefixes-css-jusqua-quand.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-08-28-principes-du-css-les-selecteurs-partie1-css2.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-09-01-principes-du-css-poids-des-declarations.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2013-11-28-desactiver-le-hover-pour-un-scroll-fluide.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-01-10-doucement-sur-le-box-sizing.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-01-02-mon-top-des-mauvaises-pratiques.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-02-04-principes-du-css-les-selecteurs-partie-2-css3.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-02-06-des-barres-de-progression-toutes-simples-en-css.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-03-12-site-epingle-avec-internet-explorer.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/README.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-03-28-bien-utiliser-les-sprites-css.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2014-05-06-regles-htmlcss-pour-les-debutants.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2015-07-21-colonne-verticale-sur-toute-la-hauteur-de-page.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2015-09-26-centrer-un-element-absolu-ou-fixed.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2015-10-07-le-probleme-du-dev-web-daujourdhui.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/content/articles/2015-10-25-un-site-qui-prend-toute-la-hauteur-disponible.md",
+		"/C/Users/Emmanuel/Downloads/prism.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2016-05-27-le-nouveau-logo-dinstagram-on-sen-fout.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-07-11-aligner-trois-colonnes-proprement.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-08-24-internet-explorer-mon-amour.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-09-01-principes-du-css-poids-des-declarations.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-11-11-linformatique-facile-ma-tue.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-02-08-windows-8-est-tres-bien.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-03-04-non-vous-ne-faites-pas-du-responsive.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-03-28-bien-utiliser-les-sprites-css.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-10-31-votre-idee-ne-vaut-rien-ploum.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-11-11-pourquoi-jai-desactive-mon-repondeur.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-12-21-comment-bien-suivre-un-tutoriel.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2015-01-15-conseils-aux-graphistes-web.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2015-07-21-colonne-verticale-sur-toute-la-hauteur-de-page.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-07-12-changer-une-image-au-survol.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-07-13-utiliser-les-proprietes-de-police-avec-une-font-web.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-07-30-google-est-opportuniste.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-08-06-prefixes-css-jusqua-quand.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-08-28-principes-du-css-les-selecteurs-partie1-css2.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-11-28-desactiver-le-hover-pour-un-scroll-fluide.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-01-02-mon-top-des-mauvaises-pratiques.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-01-10-doucement-sur-le-box-sizing.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-02-04-principes-du-css-les-selecteurs-partie-2-css3.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-02-06-des-barres-de-progression-toutes-simples-en-css.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-03-12-site-epingle-avec-internet-explorer.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-05-06-regles-htmlcss-pour-les-debutants.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-06-17-participez-au-web.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-08-01-conventions-et-normes-de-codage-2.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2015-09-26-centrer-un-element-absolu-ou-fixed.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2015-10-07-le-probleme-du-dev-web-daujourdhui.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2015-10-25-un-site-qui-prend-toute-la-hauteur-disponible.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/resources/blog.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/web_modules/Header/index.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/web_modules/Header/index.css",
+		"/E/Taff/Web/Sites/emmanuelbeziat/web_modules/LayoutContainer/index.global.css",
+		"/E/Taff/Web/Sites/emmanuelbeziat/webpack.config.babel.js",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-03-05-les-decouvertes-du-web-2.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-11-08-les-decouvertes-du-web-1.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2016-07-17-absence-ou-presque.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-08-05-au-royaume-du-debug.md",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-08-10-systeme-donglets-jquery.md",
+		"/E/Taff/Web/Sites/blog/gruntfile.js",
+		"/E/Taff/Web/Sites/blog/files/_posts/2013-07-06-woorank-loutil-danalyse-seo.md",
+		"/E/Taff/Web/Sites/blog/package.json",
+		"/C/Users/Emmanuel/AppData/Local/Temp/scp20363/etc/nginx/sites-enabled/emmanuelbeziat.nconf",
+		"/E/Taff/Web/Sites/emmanuelbeziat/.eslintrc.json",
+		"/E/Taff/Web/Sites/emmanuelbeziat/static/posts/articles/page-1.json",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/app/routes.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"*.md",
+			"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\config",
+			"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\build",
+			"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\emmanuelb-2016\\src",
+			"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\emmanuelb-2016\\dev",
+			"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\emmanuelb-2016",
+			"",
+			"site/wp-content/themes/emmanuelb/emmanuelb",
+			"site/wp-content/themes/emmanuelb/dev/stylus",
+			"site/wp-content/themes/emmanuelb/",
+			"site/wp-content/themes/emmanuelb/dev/stylus",
+			"site/wp-content/themes/emmanuelb",
+			"",
+			"/Theme - itg.flat",
+			"Theme - itg.flat",
+			"",
+			"/itg",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".article .blockquote .text:before",
+			"./",
+			"assets",
+			"translateZ",
+			"eX",
+			" {",
+			")",
+			"(",
+			")",
+			"(",
+			" ",
+			"16",
+			"AppShare",
+			"</a>",
+			"a href=\"#\"",
+			"ref=\"\"",
+			"share",
+			"social-share__link social",
+			"__link",
+			"article_",
+			"article__",
+			"article__date",
+			"background $color-grey",
+			"$color-code",
+			"```",
+			"```javascript",
+			"```css",
+			"```html",
+			"</q>",
+			"<q>",
+			"<!--more-->\n",
+			"\n<!--more-->\n",
+			"article",
+			"span",
+			"200",
+			"categories:\n	-",
+			"tags: \n	-",
+			"```.",
+			"```#",
+			",\n		 url(\"MaPolice-Regular-webfont.ttf\") format(\"truetype\"),\n		 url(\"MaPolice-Regular-webfont.svg#MaPoliceRegular\") format(\"svg\")",
+			"```éléme",
+			"```\n```",
+			"```input",
+			"```div",
+			"```a",
+			"```.",
+			"```<",
+			"```l",
+			"```#",
+			"<p>",
+			"```.",
+			"```el",
+			"```<",
+			"```#",
+			"```element",
+			"```a",
+			"```h1",
+			"```div",
+			"```li",
+			"```p",
+			"```<",
+			"```@nam",
+			"```",
+			"```<m",
+			"```$",
+			"id=\"attachment_",
+			"menu li a",
+			"```.icone",
+			".icone .icon",
+			"icone-",
+			"icone ",
+			".icone ",
+			"icone",
+			"    ",
+			"<pre>`",
+			"`</pre>",
+			"\";",
+			"&quot",
+			"&gt;",
+			"&lt;",
+			"listen	443 ssl",
+			"var",
+			"distFolder + '/page-' + pageCount + '.json'",
+			"articleCount",
+			"var",
+			"input",
+			"var",
+			"https:",
+			"	443 ssl",
+			"px",
+			"Articles",
+			"apiURL",
+			"localhost",
+			"port",
+			"PORT",
+			"port",
+			"social",
+			"appSocial",
+			"AppResume",
+			"resume",
+			"social",
+			"al__link\"",
+			"		{\"name\": \"twitter\", \"count\":\"EmmanuelBeziat\",\n		{\"name\": \"github\", \"count\":\"EmmanuelBeziat\",\n		{\"name\": \"codepen\", \"count\":\"EmmanuelBeziat\",\n		{\"name\": \"facebook\",\"count\": \"emmanuelbeziat\",\n		{\"name\": \"linkedin\", \"count\":\"emmanuel-b/49/429/542\",\n		{\"name\": \"googleplus\", \"count\": \"Emmanuelbeziat-web\"",
+			"\",",
+			":",
+			"tweets",
+			"Articles",
+			"iv>\"",
+			"\"<di",
+			"<div>",
+			"../",
+			"light",
+			"Light",
+			"light",
+			"components",
+			"pages",
+			"Home",
+			"footer",
+			"Bottom",
+			"Home",
+			"Top",
+			"header",
+			"Top",
+			"div",
+			"Header",
+			"header",
+			"Hello",
+			"conf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"~~~",
+			"~~~.language-javascript",
+			"~~~.language-css",
+			"~~~.language-markup",
+			"'",
+			"",
+			"categories:\n-",
+			"tags: \n-",
+			"",
+			"```",
+			"\"",
+			">",
+			"<",
+			"font-stack-headings",
+			"font-stack-common",
+			"font-stack-monospace",
+			"absoluteLock",
+			"width-gutter",
+			"width-content",
+			"width-header",
+			"mediaquery-mobile",
+			"mediaquery-tablet",
+			"mediaquery-desktop-small",
+			"mediaquery-desktop-wide",
+			"font-size-root",
+			"color-code",
+			"color-strong",
+			"color-emphasis",
+			"color-links",
+			"color-headings",
+			"color-text",
+			"color-background",
+			"breakpoint-small",
+			"breakpoint-medium",
+			"breakpoint-large",
+			"fonts-stack-monospace",
+			"fonts-stack-headings",
+			"fonts-stack-common",
+			"em",
+			"",
+			" ",
+			"",
+			"absolutePos",
+			" * @since Emmanuel B 2.5",
+			" \"* @since Emmanuel B 2.5\"",
+			" * @since Emmanuel B 2.5",
+			"positionAngles",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bsn-profile.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\emmanuelbeziat.sublime-project"
+			],
+			[
+				"emmanuel",
+				"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\emmanuelbeziat.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
