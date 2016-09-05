@@ -19,6 +19,7 @@
       // the correct url will be waiting in the browser's history for
       // the single page app to route accordingly.
       /////////////////////////////////////////////////////////////////////////
+
       (function(l) {
         if (l.search) {
           var q = {};
@@ -28,7 +29,7 @@
           });
           if (q.p !== undefined) {
             window.history.replaceState(null, null,
-              (q.p || '') +
+              l.pathname.slice(0, -1) + (q.p || '') +
               (q.q ? ('?' + q.q) : '') +
               l.hash
             );
