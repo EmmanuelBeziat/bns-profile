@@ -1,0 +1,59 @@
+.note
+  margin 2rem auto
+  background lighten($color-background, 2%)
+  padding 1em 2em 1em 2em
+  border-left 3px solid transparent
+  position relative
+  text-align left
+
+  @media (max-width $breakpoint-mobile)
+    margin 2rem -2rem
+    padding-top 2em
+    margin-top 2.5rem
+    border-left 0
+    border-top 3px solid transparent
+
+.note::before
+  font 1rem/1.75 $font-stack-common
+  position absolute
+  left -2px
+  transform translateX(-50%)
+  size rem(28px)
+  text-align center
+  border-radius 50%
+  color $color-background
+
+  @media (max-width $breakpoint-mobile)
+    left 50%
+    top 0
+    transform translate(-50%, -50%)
+
+.note--info
+  border-color $color-blue
+  &::before
+    content 'i'
+    background $color-blue
+
+.note--success
+  border-color $color-green
+  &::before
+    content '✓'
+    background $color-green
+
+.note--question
+  border-color $color-violet
+  &::before
+    content '?'
+    background $color-violet
+
+.note--important
+  border-color $color-yellow
+  &::before
+    content '!'
+    background $color-yellow
+
+.note--alert
+  border-color $color-red
+  &::before
+    content '!'
+    background $color-red

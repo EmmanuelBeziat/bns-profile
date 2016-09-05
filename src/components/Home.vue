@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import Store from 'store'
 import dragDrop from 'components/DragDrop'
 import md5 from '../app/worker/md5.js'
 import rc4 from '../app/worker/rc4.js'
@@ -80,8 +81,11 @@ export default {
             // Insert new exif data
             result = piexif.insert(piexif.dump(exif), result)
 
-            // FIXME: More user-friendly download?
-            window.open(result)
+            // Store the result
+            Store.set('result', result)
+
+            // Open the new page to show result
+            that.$router.go({name: 'render'})
           }
           image.src = event.target.result
         }
