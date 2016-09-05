@@ -25,4 +25,4 @@ Router.afterEach(after)
 
 // Init app
 import App from './App'
-Router.start(App, '#app')
+Router.start(App, 'app')
