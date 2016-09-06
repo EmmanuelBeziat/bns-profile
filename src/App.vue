@@ -6,6 +6,9 @@
     <main class="site-main">
       <router-view transition="fade" transition-mode="out-in"></router-view>
     </main>
+    <footer class="site-footer">
+      Coded with <span class="heart">♥</span> by <a href="https://www.emmanuelbeziat.com/">Emmanuel Béziat</a>, aka. Kalturio (FR — Hogdonny) — <a href="https://github.com/EmmanuelBeziat/bns-profile">GitHub</a>
+    </footer>
   </div>
 </template>
 
@@ -39,7 +42,7 @@ html
   overflow-y scroll
 
 body
-  margin 0 0 rem(40px)
+  margin 0
   font 400 $font-size-base/1.5 $font-stack-common
 
 .site
@@ -56,5 +59,19 @@ body
 .site-header
   text-align center
   padding rem(10px)
+
+.site-footer
+  padding rem(20px) 0
+  text-align center
+
+  a
+    transition .3 ease-in-out
+    text-decoration none
+    color $color-primary
+    &:hover
+      color $color-secondary
+
+.heart
+  color $color-red
 
 </style>

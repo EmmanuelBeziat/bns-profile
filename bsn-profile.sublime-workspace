@@ -131,17 +131,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/E/Taff/Web/GitHub/bns-profile",
-		"/E/Taff/Web/GitHub/bns-profile/build",
-		"/E/Taff/Web/GitHub/bns-profile/src",
-		"/E/Taff/Web/GitHub/bns-profile/src/app",
-		"/E/Taff/Web/GitHub/bns-profile/static"
-	],
 	"file_history":
 	[
 		"/E/Taff/Web/GitHub/bns-profile/index.html",
+		"/E/Taff/Web/GitHub/bns-profile/src/components/Render.vue",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/icons/back.svg",
+		"/E/Taff/Web/GitHub/bns-profile/src/components/Home.vue",
+		"/C/Users/Emmanuel/Downloads/1473122716_back-alt.svg",
+		"/C/Users/Emmanuel/Downloads/1473122676_arrowleft.svg",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/icons/send.svg",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/components.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/main.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/variables.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/icons/arrow-left.svg",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/utils/variables.styl",
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/components/notes.styl",
+		"/E/Taff/Web/GitHub/bns-profile/src/app/routes.js",
+		"/E/Taff/Web/GitHub/bns-profile/src/components/Result.vue",
 		"/E/Taff/Web/GitHub/bns-profile/build/build.js",
 		"/E/Taff/Web/GitHub/bns-profile/build/webpack.base.conf.js",
 		"/E/Taff/Web/GitHub/bns-profile/404.html",
@@ -151,7 +157,6 @@
 		"/E/Taff/Web/GitHub/bns-profile/build/webpack.prod.conf.js",
 		"/C/Users/Emmanuel/Desktop/index.html",
 		"/E/Taff/Web/GitHub/bns-profile/src/app/worker/bytesConverter.js",
-		"/E/Taff/Web/GitHub/bns-profile/src/components/Home.vue",
 		"/C/Users/Emmanuel/Desktop/BnS_pictures-gh-pages/index.html",
 		"/E/Taff/Web/GitHub/bns-profile/src/app/worker/rc4.js",
 		"/C/Users/Emmanuel/Desktop/BnS_pictures-gh-pages/js/rc4.js",
@@ -164,30 +169,24 @@
 		"/E/Taff/Web/GitHub/bns-profile/src/components/DragDrop.vue",
 		"/E/Taff/Web/GitHub/bns-profile/src/App.vue",
 		"/C/Users/Emmanuel/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/variables.styl",
 		"/E/Taff/Web/GitHub/bns-profile/src/app/workers/md5.js",
 		"/C/Users/Emmanuel/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
 		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/mixins.styl",
 		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/helper.styl",
 		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/fonts.styl",
-		"/E/Taff/Web/GitHub/bns-profile/src/assets/main.styl",
 		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/base.styl",
 		"/E/Taff/Web/GitHub/bns-profile/package.json",
 		"/E/Taff/Web/GitHub/bns-profile/bsn-profile.sublime-project",
-		"/E/Taff/Web/GitHub/bns-profile/src/assets/icons/send.svg",
 		"/E/Taff/Web/GitHub/bns-profile/build/dev-server.js",
 		"/E/Taff/Web/GitHub/bns-profile/src/components/Help.vue",
 		"/E/Taff/Web/GitHub/bns-profile/src/assets/stylus/animations.styl",
-		"/E/Taff/Web/GitHub/bns-profile/src/app/routes.js",
 		"/E/Taff/Web/GitHub/bns-profile/src/components/NotFound.vue",
 		"/E/Taff/Web/GitHub/bns-profile/src/app/router.js",
 		"/E/Taff/Web/GitHub/bns-profile/src/app/boot.js",
 		"/E/Taff/Web/GitHub/bsn-profile/bns-profile.sublime-project",
 		"/E/Taff/Web/GitHub/bsn-profile/.gitignore",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/utils/variables.styl",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/modules/base.styl",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/vendors/prism.styl",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/components/notes.styl",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/components/share.styl",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/pages/home.styl",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/assets/stylus/modules/header.styl",
@@ -261,14 +260,7 @@
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-08-06-prefixes-css-jusqua-quand.md",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-08-28-principes-du-css-les-selecteurs-partie1-css2.md",
 		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2013-11-28-desactiver-le-hover-pour-un-scroll-fluide.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-01-02-mon-top-des-mauvaises-pratiques.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-01-10-doucement-sur-le-box-sizing.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-02-04-principes-du-css-les-selecteurs-partie-2-css3.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-02-06-des-barres-de-progression-toutes-simples-en-css.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-03-12-site-epingle-avec-internet-explorer.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-05-06-regles-htmlcss-pour-les-debutants.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-06-17-participez-au-web.md",
-		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-08-01-conventions-et-normes-de-codage-2.md"
+		"/E/Taff/Web/Sites/emmanuelbeziat/src/content/articles/2014-01-02-mon-top-des-mauvaises-pratiques.md"
 	],
 	"find":
 	{
@@ -307,6 +299,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"c-",
+			"result",
 			"publicPath",
 			"output",
 			"static/",
@@ -432,9 +426,7 @@
 			"input_data",
 			"new_data",
 			"throw(",
-			"throw",
-			"!===",
-			" == "
+			"throw"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -611,7 +603,7 @@
 		[
 			[
 				"",
-				"E:\\Taff\\Web\\Sites\\emmanuelbeziat\\emmanuelbeziat.sublime-project"
+				"E:\\Taff\\Web\\GitHub\\bns-profile\\bsn-profile.sublime-workspace"
 			],
 			[
 				"emmanuel",
