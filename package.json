@@ -1,6 +1,6 @@
 {
   "name": "bns-profile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight tool for converting profile pictures for Blade&Soul",
   "author": "Emmanuel Béziat <contact@emmanuelbeziat.com>",
   "private": true,
