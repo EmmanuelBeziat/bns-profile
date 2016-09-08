@@ -21,6 +21,8 @@
         </button>
       </div>
     </form>
+
+    <h3 class="text-align-center">Stuck? <a v-link="{ name: 'help' }">Read the help page</a>!</h3>
   </div>
 </template>
 

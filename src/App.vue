@@ -61,6 +61,9 @@ kbd
   border #ccc 1px solid
   border-radius .25em
 
+.text-align-center
+  text-align center
+
 .site
   display flex
   flex-direction column

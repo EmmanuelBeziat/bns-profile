@@ -37,7 +37,7 @@
     <p>The picture will appear in the area. To change it, you can simply click on the trash icon.</p>
     <p class="text-align-center"><img src="../assets/images/05.jpg" alt=""></p>
 
-    <h3 id="crate-a-custom-image">Create a custom image</h3>
+    <h3 id="create-a-custom-image">Create a custom image</h3>
     <p>Now, let’s create your future profile pic!</p>
     <p>You will need a software for manipulate and create images. The one I use and show here is Photoshop, but you can use Gimp, Photofiltre, and many others.</p>
     <div class="note note--info">I won’t provide any help for creating your custom image, or using one of the software I mentioned. If you don’t know how to use them, you can find many tutorials on the web, or ask on some graphic boards.</div>
@@ -100,6 +100,4 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-.text-align-center
-  text-align center
 </style>
