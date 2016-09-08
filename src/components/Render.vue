@@ -74,10 +74,4 @@ a
   btn( $color-primary, $color-secondary )
   fill #fff
 
-kbd
-  background #fff
-  padding 1px 4px
-  border #ccc 1px solid
-  border-radius .25em
-
 </style>

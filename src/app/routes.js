@@ -18,15 +18,15 @@ module.exports = {
       component: require('../components/Home')
     },
 
-    'render': {
+    '/render': {
       name: 'render',
       title: 'Blade&Soul Profile Picture',
       component: require('../components/Render')
     },
 
-    'help': {
+    '/help': {
       name: 'help',
-      title: 'Blade&Soul Profile Picture',
+      title: 'Blade&Soul Profile Picture :: Help',
       component: require('../components/Help')
     },
 

@@ -1,7 +1,7 @@
 <template>
   <div class="site">
     <header class="site-header">
-      <a v-link="{ name: 'home' }"><img src="assets/bns-logo.png" alt="Blade &amp; Soul"></a>
+      <h1><a v-link="{ name: 'home' }"><img src="assets/bns-logo.png" alt="Blade &amp; Soul"></a></h1>
     </header>
     <main class="site-main">
       <router-view transition="fade" transition-mode="out-in"></router-view>
@@ -45,6 +45,22 @@ body
   margin 0
   font 400 $font-size-base/1.5 $font-stack-common
 
+h1
+  margin 0
+
+a
+  transition .3 ease-in-out
+  text-decoration none
+  color $color-primary
+  &:hover
+    color $color-secondary
+
+kbd
+  background #fff
+  padding 1px 4px
+  border #ccc 1px solid
+  border-radius .25em
+
 .site
   display flex
   flex-direction column
@@ -63,13 +79,6 @@ body
 .site-footer
   padding rem(20px) 0
   text-align center
-
-  a
-    transition .3 ease-in-out
-    text-decoration none
-    color $color-primary
-    &:hover
-      color $color-secondary
 
 .heart
   color $color-red
