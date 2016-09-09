@@ -36,7 +36,9 @@ import bytes from '../app/worker/bytesConverter.js'
 
 export default {
   data () {
-    return { }
+    return {
+      facebookImage: require('../assets/bns-logo.png')
+    }
   },
 
   components: {
@@ -127,9 +129,33 @@ export default {
       return data
     }
 
+  },
+
+  head: {
+    meta: function () {
+      return [
+        { property: 'og:url', content: 'https://bns-profile.surge.sh' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Blade&Soul Profile Picture' },
+        { property: 'og:image', content: this.facebookImage },
+        { property: 'og:description', content: 'A cool webapp to convert a custom image in a profile picture for Blade&Soul' },
+        { property: 'og:site_name', content: 'Blade&Soul Profile Picture' },
+        { property: 'og:locale', content: 'en' },
+        { property: 'article:author', content: 'Emmanuel Beziat' }
+      ]
+    }
   }
 }
 </script>
+
+<meta property="og:url" content="https://example.com/page.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Content Title">
+<meta property="og:image" content="https://example.com/image.jpg">
+<meta property="og:description" content="Description Here">
+<meta property="og:site_name" content="Site Name">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="">
 
 <style scoped lang="stylus">
 @import '../assets/main.styl'

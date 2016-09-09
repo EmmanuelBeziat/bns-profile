@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueHead from 'vue-head'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import { redirects, routes } from './app/routes'
@@ -6,6 +7,7 @@ import { config, before, after } from './app/router'
 
 import VueSvg from 'vue-svg-directive'
 
+Vue.use(VueHead)
 Vue.use(VueRouter)
 Vue.use(VueResource)
 require('./app/boot')
