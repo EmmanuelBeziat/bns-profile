@@ -7,7 +7,8 @@
       <router-view transition="fade" transition-mode="out-in"></router-view>
     </main>
     <footer class="site-footer">
-      Coded with <span class="heart">♥</span> by <a href="https://www.emmanuelbeziat.com/">Emmanuel Béziat</a>, aka. Kalturio (FR — Hogdonny) — <a href="https://github.com/EmmanuelBeziat/bns-profile">GitHub</a>
+      <p>Coded with <span class="heart">♥</span> by <a href="https://www.emmanuelbeziat.com/">Emmanuel Béziat</a>, aka. Kalturio (FR — Hogdonny) — <a href="https://github.com/EmmanuelBeziat/bns-profile">GitHub</a></p>
+      <p><a href="https://github.com/EmmanuelBeziat/bns-profile/issues/new">Go on Github</a> to report bugs, make suggestions, say thanks — Follow me on <a href="https://twitter.com/EmmanuelBeziat">Twitter</a></p>
     </footer>
   </div>
 </template>
