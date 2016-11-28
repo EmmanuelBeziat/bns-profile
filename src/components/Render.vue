@@ -1,14 +1,14 @@
 <template>
   <div class="result">
     <div class="note note--success">
-      Now, just save this image (<kbd>right click</kbd> → <kbd>Save</kbd>) in your <kbd>CharacterShot</kbd> folder
+      Now, just click on this image and save it in your <kbd>CharacterShot</kbd> folder
     </div>
 
     <div class="result__container">
-      <img class="result__render" :src="image">
+      <a class="result__link" :href="image" :download="filename"><img class="result__render" :src="image"></a>
     </div>
 
-    <a v-link="{ name: 'home' }">
+    <a class="back-link" v-link="{ name: 'home' }">
       <svg v-svg class="icon" sprite="back"></svg>
       <span>Back to home</span>
     </a>
@@ -17,11 +17,13 @@
 
 <script>
 import Store from 'store'
+import Moment from 'Moment'
 
 export default {
   data () {
     return {
-      image: Store.get('result')
+      image: Store.get('result'),
+      filename: 'bns-profile_' + Moment().format('YYYY-MM-DD_hh-mm') + '.jpg'
     }
   },
 
@@ -64,10 +66,13 @@ export default {
   border-radius .25em
   max-width 100%
 
+.result__link
+  display block
+
 .icon
   top 12px
 
-a
+.back-link
   text-decoration none
   display block
   margin rem(20px) auto

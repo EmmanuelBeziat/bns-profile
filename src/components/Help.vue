@@ -57,7 +57,7 @@
     <p class="text-align-center"><img src="../assets/images/10.jpg" alt=""></p>
     <p>Just give him the name you want.</p>
     <p class="text-align-center"><img src="../assets/images/11.jpg" alt=""></p>
-    <div class="note note--important">Be careful: fore some reasons, as it is a code-generated image, browsers behaviours could chage from one to another. Chrome will save it in a JPEG format, Firefox will add no format so you’ll have to add <kbd>.jpg</kbd> at the end of your filename, and Edge want to save it as a PNG, which is not good.<br> To avoid any problem while I can figure out how to properly set the image format, you should be very careful, or use Chrome if you have any doubt.</div>
+    <div class="note note--important">Be careful: be sure to just left click on the image to save it</div>
     <p>Now, your image should be in your <kbd>CharacterShots</kbd> folder. Just get back in the game, and open your <kbd>Picture Gallery</kbd> again. You should see your newly crated image in there.</p>
     <p>Just hover it and click on the "register" button that show up.</p>
     <p class="text-align-center"><img src="../assets/images/12.jpg" alt=""></p>
