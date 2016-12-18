@@ -1,28 +1,30 @@
 <template>
   <div class="dropzone" droppable="true" drag-over="handleDragOver" @dragenter="hovering = true" @dragleave="hovering = false" :class="{'hovered': hovering}">
 
-    <div class="dropzone__title">
-      Drop image here or click to select
-    </div>
+    <div class="dropzone__title">{{{ l_dropOrClick }}}</div>
     <input class="dropzone__input" type="file" required @change="onFileChange">
 
     <div class="dropzone__preview">
       <img class="dropzone__render" :src="image" alt="">
       <button class="dropzone__remove" @click="removeImage" v-if="image">
         <svg v-svg class="icon" sprite="trash"></svg>
-        <span>Remove this image</span>
+        <span>{{ l_remove }}</span>
       </button>
     </div>
   </div>
 </template>
 
 <script>
+const userLang = navigator.language || navigator.userLanguage
+
 export default {
 
   data () {
     return {
       image: '',
-      hovering: false
+      hovering: false,
+      l_dropOrClick: userLang === 'fr' ? 'Glissez-déposez une image ici <br>ou cliquez pour choisir' : 'Drop image here or click to select',
+      l_remove: userLang === 'fr' ? 'Retirer cette image' : 'Remove this image'
     }
   },
 

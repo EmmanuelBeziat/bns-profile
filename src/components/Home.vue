@@ -4,12 +4,12 @@
 
       <div class="images">
         <div class="form__group">
-          <h3 class="form__title">Select a valid Blade &amp; Soul Character Shot</h3>
+          <h3 class="form__title">{{ l_selectValidImage }}</h3>
           <drag-drop id="imagevalid"></drag-drop>
         </div>
 
         <div class="form__group">
-          <h3 class="form__title">Select your custom image (378×620px)</h3>
+          <h3 class="form__title">{{ l_selectCustomImage }} (378×620px)</h3>
           <drag-drop id="imagecustom"></drag-drop>
         </div>
       </div>
@@ -17,12 +17,12 @@
       <div class="form__group form__group--submit">
         <button type="submit" class="form__submit">
           <svg v-svg class="icon" sprite="send"></svg>
-          <span>Convert now</span>
+          <span> {{ l_convert }} </span>
         </button>
       </div>
     </form>
 
-    <h3 class="text-align-center">Stuck? <a v-link="{ name: 'help' }">Read the help page</a>!</h3>
+    <h3 class="text-align-center">{{ l_stuck }} <a v-link="{ name: 'help' }">{{ l_readHelp }}</a>!</h3>
   </div>
 </template>
 
@@ -34,9 +34,16 @@ import rc4 from '../app/worker/rc4.js'
 import piexif from '../app/worker/piexif.js'
 import bytes from '../app/worker/bytesConverter.js'
 
+const userLang = navigator.language || navigator.userLanguage
+
 export default {
   data () {
     return {
+      l_selectValidImage: userLang === 'fr' ? 'Choisissez une image Blade & Soul valide' : 'Select a valid Blade & Soul Character Shot',
+      l_selectCustomImage: userLang === 'fr' ? 'Choisissez votre image perso' : 'Select your custom image',
+      l_convert: userLang === 'fr' ? 'Convertir maintenant' : 'Convert now',
+      l_stuck: userLang === 'fr' ? 'Perdu ?' : 'Stuck?',
+      l_readHelp: userLang === 'fr' ? 'Consultez la page d’aide ' : 'Read the help page'
     }
   },
 

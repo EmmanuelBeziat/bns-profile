@@ -1,7 +1,7 @@
 <template>
   <div class="result">
     <div class="note note--success">
-      Now, just click on this image and save it in your <kbd>CharacterShot</kbd> folder
+      {{{ l_save }}}
     </div>
 
     <div class="result__container">
@@ -10,7 +10,7 @@
 
     <a class="back-link" v-link="{ name: 'home' }">
       <svg v-svg class="icon" sprite="back"></svg>
-      <span>Back to home</span>
+      <span>{{ l_backHome }}</span>
     </a>
   </div>
 </template>
@@ -19,11 +19,15 @@
 import Store from 'store'
 import Moment from 'Moment'
 
+const userLang = navigator.language || navigator.userLanguage
+
 export default {
   data () {
     return {
       image: Store.get('result'),
-      filename: 'bns-profile_' + Moment().format('YYYY-MM-DD_hh-mm') + '.jpg'
+      filename: 'bns-profile_' + Moment().format('YYYY-MM-DD_hh-mm') + '.jpg',
+      l_save: userLang === 'fr' ? 'Maintenant, cliquez juste sur l’image (clic <strong>gauche</strong>) et enregistrez-la dans votre dossier <kbd>CharacterShot</kbd>' : 'Now, just (<strong>left</Strong>) click on this image and save it in your <kbd>CharacterShot</kbd> folder',
+      l_backHome: userLang === 'fr' ? 'Retour à l’accueil' : 'Back to home'
     }
   },
 

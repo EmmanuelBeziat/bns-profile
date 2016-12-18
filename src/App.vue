@@ -7,8 +7,7 @@
       <router-view transition="fade" transition-mode="out-in"></router-view>
     </main>
     <footer class="site-footer">
-      Coded with <span class="heart">♥</span> by <a href="https://www.emmanuelbeziat.com/">Emmanuel Béziat</a>, aka. Kalturio (FR — Hogdonny) — <a href="https://github.com/EmmanuelBeziat/bns-profile">GitHub</a><br>
-      <a href="https://github.com/EmmanuelBeziat/bns-profile/issues/new">Go on Github</a> to report bugs, make suggestions, say thanks — Follow me on <a href="https://twitter.com/EmmanuelBeziat">Twitter</a>
+      {{{ l_copyright }}}
     </footer>
   </div>
 </template>
@@ -16,7 +15,16 @@
 <script>
 import Home from './components/Home'
 
+const userLang = navigator.language || navigator.userLanguage
+
 export default {
+  data () {
+    return {
+      l_copyright: userLang === 'fr'
+        ? 'Codé avec <span class="heart">♥</span> par <a href="https://www.emmanuelbeziat.com/">Emmanuel Béziat</a>, alias Kalturio (FR — Hogdonny) — <a href="https://github.com/EmmanuelBeziat/bns-profile">GitHub</a><br><a href="https://github.com/EmmanuelBeziat/bns-profile/issues/new">Rendez-vous sur Github</a> pour rapporter un bug, faire des suggestions, dire merci — Suivez-moi sur <a href="https://twitter.com/EmmanuelBeziat">Twitter</a>'
+        : 'Coded with <span class="heart">♥</span> by <a href="https://www.emmanuelbeziat.com/">Emmanuel Béziat</a>, aka. Kalturio (FR — Hogdonny) — <a href="https://github.com/EmmanuelBeziat/bns-profile">GitHub</a><br><a href="https://github.com/EmmanuelBeziat/bns-profile/issues/new">Go on Github</a> to report bugs, make suggestions, say thanks — Follow me on <a href="https://twitter.com/EmmanuelBeziat">Twitter</a>'
+    }
+  },
   components: {
     Home
   }
