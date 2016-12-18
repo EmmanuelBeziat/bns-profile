@@ -10,7 +10,8 @@
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "svg": "svg-sprite-generate -d src/assets/icons -o static/icons.svg"
+    "svg": "svg-sprite-generate -d src/assets/icons -o static/icons.svg",
+    "deploy": "surge -p ./dist/ -d https://bns-profile.surge.sh"
   },
   "dependencies": {
     "babel-runtime": "^6.18.0",
