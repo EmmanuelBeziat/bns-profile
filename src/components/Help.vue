@@ -82,7 +82,7 @@
       <p>Si vous croisez un Lyn Lame Dansante dans le jeu, faites-moi un coucou ! ☺</p>
 
       <h3>Mais aussi…</h3>
-      <p>Un gros merci à <strong>Chris</strong> pour le temps qu’il a pris afin de proposer une belle traduction en français !</p>
+      <p>Un gros merci à <strong>Rellenna</strong> pour le temps qu’il a pris afin de proposer une belle traduction en français !</p>
     </div>
 
     <div class="help-en" v-else>
@@ -169,7 +169,7 @@
       <p>If you encounter a BladeDancer Lyn named Kalturio, gimme a sign. ☺</p>
 
   	  <h3>Last but not least…</h3>
-      <p>A big thank to <strong>Chris</strong> for the time he took to propose a nice french translation!</p>
+      <p>A big thank to <strong>Rellenna</strong> for the time he took to propose a nice french translation!</p>
     </div>
   </div>
 </template>

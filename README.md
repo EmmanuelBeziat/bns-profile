@@ -4,4 +4,4 @@
 
 ## Thanks
 
-* Chris for his french translation
+* Rellenna for his french translation
