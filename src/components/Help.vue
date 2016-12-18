@@ -82,7 +82,7 @@
       <p>Si vous croisez un Lyn Lame Dansante dans le jeu, faites-moi un coucou ! ☺</p>
 
       <h3>Mais aussi…</h3>
-      <p>Un gros merci à <strong>Rellenna</strong> pour le temps qu’il a prit afin de proposer une belle traduction en français !</p>
+      <p>Un gros merci à <strong>Rellenna</strong> pour le temps qu’il a pris afin de proposer une belle traduction en français !</p>
     </div>
 
     <div class="help-en" v-else>
